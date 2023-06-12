@@ -4,11 +4,11 @@
 	@apply flex  gap-5 relative z-0 max-w-[1440px] mx-auto;
 
 	.banner_title {
-		@apply text-[50px] font-extrabold;
+		@apply text-[40px] font-extrabold uppercase;
 	}
 
 	.banner_subtitle {
-		@apply text-[27px] text-black-100 font-light mt-5;
+		@apply text-[20px] text-black-100 font-light mt-5;
 	}
 
 	.banner_image_block {

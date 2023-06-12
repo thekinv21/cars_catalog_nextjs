@@ -1,7 +1,7 @@
+import { CustomButton } from '@/import/index'
 import Image from 'next/image'
 import { FC } from 'react'
 
-import { CustomButton } from '../../../../import'
 import styles from './CarBanner.module.scss'
 
 const CarBanner: FC = () => {

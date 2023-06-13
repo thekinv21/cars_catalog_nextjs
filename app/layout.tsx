@@ -1,9 +1,7 @@
-import { Inter } from 'next/font/google'
+import { Provider } from '@/provider/Provider'
 
 import { CustomFooter, CustomNavbar } from '../import'
 import './globals.css'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
 	title: 'Car Catalog',
@@ -19,7 +17,9 @@ export default function RootLayout({
 		<html lang='en'>
 			<body className='relative'>
 				<CustomNavbar />
-				<main>{children}</main>
+				<main>
+					<Provider>{children}</Provider>
+				</main>
 				<CustomFooter />
 			</body>
 		</html>

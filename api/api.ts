@@ -17,5 +17,3 @@ export const useGetCars = () => {
 	)
 	return { data, isLoading, refetch }
 }
-
-//*============GENERATE CAR IMAGE URL===========

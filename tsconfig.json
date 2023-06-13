@@ -25,12 +25,13 @@
 			"@/ui/*": ["./components/ui/*"],
 			"@/components/*": ["./components/*"],
 			"@/layout/*": ["./components/layout/*"],
-			"@/hooks/*": ["./hooks/*"],
+			"@/api/*": ["./api/*"],
 			"@/utils/*": ["./utils/*"],
-			"@/assets/*": ["./assets/*"],
+			"@/provider/*": ["./provider/*"],
 			"@/types/*": ["./types/*"],
 			"@/styles/*": ["./style/*"],
-			"@/imports/*": ["./imports/*"]
+			"@/import/*": ["./import/*"],
+			"@/constants/*": ["./constants/*"]
 		}
 	},
 	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

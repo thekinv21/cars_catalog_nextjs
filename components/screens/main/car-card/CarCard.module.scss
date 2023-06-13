@@ -1,0 +1,49 @@
+@import '@/styles/responsive.scss';
+
+// car card styles
+.car_card_container {
+	@apply flex flex-col p-6 justify-center items-start text-black-100 bg-primary-blue-100 hover:bg-gray-300 hover:shadow-md rounded-3xl transition-all duration-500 ease-in-out w-80;
+}
+
+// car price and title styles
+.car_card_content {
+	@apply w-full flex justify-between items-start gap-2;
+}
+
+.car_card_content_title {
+	@apply text-[22px] leading-[26px] font-bold capitalize;
+}
+
+.car_card_carRent {
+	@apply flex mt-6 text-[32px] leading-[38px] font-extrabold;
+}
+
+.span1 {
+	@apply self-start text-[14px] leading-[17px] font-semibold;
+}
+
+.span2 {
+	@apply self-end text-[14px] leading-[17px] font-medium;
+}
+
+// car ımage styles
+.car_image_container {
+	@apply relative w-full h-40 my-3 object-contain;
+}
+
+// car ınfo styles
+.carInfo {
+	@apply relative flex w-full mt-2;
+}
+
+.carTransmission_container {
+	@apply flex focus-within:invisible w-full justify-between text-grey;
+}
+
+.carTransmission_content {
+	@apply flex flex-col justify-center items-center gap-2;
+}
+
+.car_card__btn_container {
+	@apply flex items-center justify-center w-full py-3;
+}

@@ -1,4 +1,6 @@
 import { Provider } from '@/provider/Provider'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 import { CustomFooter, CustomNavbar } from '../import'
 import './globals.css'
@@ -18,6 +20,7 @@ export default function RootLayout({
 			<body className='relative'>
 				<CustomNavbar />
 				<main>
+					<ToastContainer />
 					<Provider>{children}</Provider>
 				</main>
 				<CustomFooter />

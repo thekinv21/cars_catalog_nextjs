@@ -1,34 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+0) Create Simple Project Car Catalog...
+1) Using : Nextjs , TailwindCss , Sass , Typescript , React-Query , React-Toastify
+2) Fetching Api with React-Query
+3) All commits on develop branch..
+4) Not : Using RapidApi
+5) In this api didnt have car image endpoing and i am using just one image in all cars , but car details is correct
 
-First, run the development server:
+2) Project Look Like : 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+![banner](https://github.com/thekinv21/cars_catalog_nextjs/assets/92122363/509e3fe2-fe7f-4c60-9c9a-91bdefd47253)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![search](https://github.com/thekinv21/cars_catalog_nextjs/assets/92122363/525b76bd-5d28-45fa-8598-014d395f1291)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![23](https://github.com/thekinv21/cars_catalog_nextjs/assets/92122363/7e1bc02d-99f6-4e70-8a3c-a1361f7c95c4)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+![fotre](https://github.com/thekinv21/cars_catalog_nextjs/assets/92122363/425e19fb-42b2-4a87-a178-f1b60d45c22f)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

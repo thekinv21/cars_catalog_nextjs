@@ -1,7 +1,7 @@
-import { useGetCars } from '@/api/api'
+import { useGetByName } from '@/api/api'
 
 export const useCarCatalog = () => {
-	const { data, isLoading } = useGetCars()
+	const { data, isLoading } = useGetByName()
 
 	const allCars = data?.repsonse.data
 

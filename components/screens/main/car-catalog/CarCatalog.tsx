@@ -1,4 +1,4 @@
-import { CustomFilter, CustomSearchBar } from '@/import/index'
+import { CustomSearchBar } from '@/import/index'
 import { FC } from 'react'
 
 import CarCard from '../car-card/CarCard'
@@ -19,15 +19,10 @@ const CarCatalog: FC = () => {
 
 			<div className={styles.catalog_filters}>
 				<CustomSearchBar />
-
-				<div className={styles.catalog_filter_container}>
-					<CustomFilter />
-					<CustomFilter />
-				</div>
 			</div>
 
 			{!isDataEmpty ? (
-				<section >
+				<section>
 					<div className={styles.cars_wrapper}>
 						{allCars.map((car: any, index: number) => (
 							<CarCard key={index} car={car} />

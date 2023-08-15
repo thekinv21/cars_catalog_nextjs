@@ -1,0 +1,21 @@
+@import '@/styles/responsive.scss';
+
+.catalog_text {
+	@apply text-3xl font-extrabold uppercase;
+}
+
+.catalog_desc {
+	@apply text-xs text-gray-400 mt-3;
+}
+
+.catalog_filters {
+	@apply flex items-center justify-between mt-10;
+}
+
+.catalog_filter_container {
+	@apply flex items-center justify-center gap-8;
+}
+
+.cars_wrapper {
+	@apply flex flex-wrap items-center justify-center gap-16 my-20 mx-5 w-full;
+}

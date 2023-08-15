@@ -1,0 +1,47 @@
+@import '@/styles/responsive.scss';
+
+.footer {
+	@apply flex flex-col text-black-100 mt-5 border-t border-gray-100;
+}
+
+.footer_content {
+	@apply flex  flex-wrap justify-around gap-5 px-6 py-10;
+}
+
+.footer_logo {
+	@apply flex flex-col justify-start items-start  gap-6;
+}
+
+.footer_desc {
+	@apply text-sm text-gray-600;
+}
+
+.footer_links_container {
+	@apply flex flex-wrap justify-between items-center gap-10 w-2/4;
+}
+
+.footer_link {
+	@apply flex flex-col items-start;
+}
+
+.footer_copyright {
+	@apply flex justify-center items-center gap-4 flex-wrap mt-10 border-t text-xs border-gray-100 px-6 py-10;
+}
+
+//============MOBİLE İÇİN========
+@include phone {
+	.footer_content {
+		@apply flex-col px-16;
+	}
+
+	.footer_copyright {
+		@apply px-16;
+	}
+}
+
+//============TABLET İÇİN========
+@include tablet {
+	.footer_links_container {
+		@apply flex-wrap items-start;
+	}
+}

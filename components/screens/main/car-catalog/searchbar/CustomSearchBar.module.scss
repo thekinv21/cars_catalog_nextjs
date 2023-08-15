@@ -1,0 +1,13 @@
+/* START: searchbar styles */
+.searchbar {
+	@apply flex items-center justify-start gap-6 max-sm:flex-col w-full relative max-sm:gap-8;
+}
+
+.searchbar__item {
+	@apply flex-1 max-sm:w-full flex justify-start items-center relative;
+}
+
+.searchbar__input {
+	@apply w-full h-[48px] pl-12 p-4 bg-gray-200 outline-none rounded-md cursor-pointer text-sm;
+}
+/* END: searchbar styles */
